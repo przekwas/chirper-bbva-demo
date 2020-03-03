@@ -15,7 +15,7 @@ const LoginForm = props => {
 				props.handleLoadLogin();
 			}
 		},
-		[props.username]
+		[props]
 	);
 
 	return (

@@ -36,7 +36,7 @@ const MainForm = props => {
                 setMessage('');
 			}
 		},
-		[charCount]
+		[props, message, charCount]
 	);
 
 	return (
