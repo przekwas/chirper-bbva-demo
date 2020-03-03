@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Login from './views/Login';
+import Main from './views/Main';
 
 const App = () => {
-	return (
-		<div>
-			<h1 className="text-center">Hello there.</h1>
-		</div>
-	);
+	const [loadLogin, setLoadLogin] = useState(true);
+	const [username, setUsername] = useState('');
+
+	const handleLoadLogin = () => setLoadLogin(false);
+
+	if (loadLogin) {
+		return <Login handleLoadLogin={handleLoadLogin} username={username} setUsername={setUsername} />;
+	} else {
+		return <Main username={username} />;
+	}
 };
 
 export default App;
