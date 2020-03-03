@@ -10,7 +10,7 @@ const Login = props => {
 		<>
 			<FullDiv>
 				<Container>
-					<Row className="justify-content-center">
+					<Row className="justify-content-center align-items-center">
 						<Col md={8}>
 							<LoginForm handleLoadLogin={props.handleLoadLogin} username={props.username} setUsername={props.setUsername} />
 						</Col>
@@ -22,7 +22,7 @@ const Login = props => {
 };
 
 const FullDiv = styled.div`
-	height: 100vmax;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
