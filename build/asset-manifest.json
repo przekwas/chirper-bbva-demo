@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/chirper-bbva-demo/static/js/main.4c75fbdf.chunk.js",
+    "main.js.map": "/chirper-bbva-demo/static/js/main.4c75fbdf.chunk.js.map",
+    "runtime-main.js": "/chirper-bbva-demo/static/js/runtime-main.4e593488.js",
+    "runtime-main.js.map": "/chirper-bbva-demo/static/js/runtime-main.4e593488.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/chirper-bbva-demo/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.16813cea.chunk.js": "/chirper-bbva-demo/static/js/2.16813cea.chunk.js",
+    "static/js/2.16813cea.chunk.js.map": "/chirper-bbva-demo/static/js/2.16813cea.chunk.js.map",
+    "index.html": "/chirper-bbva-demo/index.html",
+    "precache-manifest.b582baedb2d332235624aedab6746f1f.js": "/chirper-bbva-demo/precache-manifest.b582baedb2d332235624aedab6746f1f.js",
+    "service-worker.js": "/chirper-bbva-demo/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/chirper-bbva-demo/static/css/2.47e06e2e.chunk.css.map",
+    "static/js/2.16813cea.chunk.js.LICENSE.txt": "/chirper-bbva-demo/static/js/2.16813cea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e593488.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.16813cea.chunk.js",
+    "static/js/main.4c75fbdf.chunk.js"
+  ]
+}
