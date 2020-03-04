@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 const SideNav = props => {
 	const [recentChirp, setRecentChirp] = useState({});
 
+	//as the parent's array state is changing, this effect pulls the last element from the array
+	//as the "most recent added chirp"
 	useEffect(() => {
 		if (props.chirps.length !== 0) {
 			setRecentChirp(props.chirps[props.chirps.length - 1]);

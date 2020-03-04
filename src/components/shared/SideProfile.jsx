@@ -2,6 +2,7 @@ import React from 'react';
 import { FaUser } from 'react-icons/fa';
 import Card from 'react-bootstrap/Card';
 
+// simply pull the parent's username state and display it
 const SideProfile = props => {
 	return (
 		<Card className="shadow-sm">

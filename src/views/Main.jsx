@@ -11,7 +11,11 @@ import SideNav from '../components/shared/SideNav';
 const Main = props => {
 	const [chirps, setChirps] = useState([]);
 
+	//remember we can't manipulate state directly
+	//use spread or array.slice to make copies of the array state
 	const addChirp = chirp => setChirps([...chirps, chirp]);
+
+	//shenanigans to scroll to the most "recent post"
 	const scrollToBottom = () => window.scrollTo(0, document.body.scrollHeight);
 
 	return (

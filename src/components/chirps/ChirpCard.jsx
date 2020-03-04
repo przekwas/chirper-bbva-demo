@@ -18,6 +18,9 @@ const ChirpCard = props => {
 					</span>
 				</ListGroup.Item>
 				<ListGroup.Item className="text-wrap">
+					{/* textarea elements use \n to placehold new lines in a js string */}
+					{/* we split the string into an array of "paragraphs" */}
+					{/* and map through the array as usual :) */}
 					{props.chirp.message.split('\n').map((block, i) => (
 						<span key={`block-item-${i}`}>
 							{block}
@@ -26,6 +29,7 @@ const ChirpCard = props => {
 					))}
 				</ListGroup.Item>
 				<ListGroup.Item className="d-flex justify-content-between align-items-center">
+					{/* moment makes our life so ezpz for formatting dates <3 */}
 					<i className="text-muted">{moment(props.chirp.created_at).format('MMMM Do YYYY, h:mm:ss a')}</i>
 					<span className="d-flex justify-content-center align-items-center">
 						<ChirpLikes />

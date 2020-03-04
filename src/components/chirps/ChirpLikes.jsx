@@ -6,6 +6,8 @@ const ChirpLikes = () => {
 
 	const likeIt = () => setLikes(likes + 1);
 
+	// conditional render for an empty heart with no likes :(
+	// or a filled heart if it has them! <3
 	if (likes === 0) {
 		return <FaRegHeart onClick={likeIt} />;
 	} else {
